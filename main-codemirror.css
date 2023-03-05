@@ -1,0 +1,16 @@
+.code-editor-container {
+    width: 300px;
+    position: absolute;
+    border: 1px solid black;
+}
+
+div.code-editor-handle {
+    width: 100%;
+    height: 20px;
+    background-color: black;
+}
+
+.CodeMirror {
+    border: 1px solid #eee;
+    height: 100px;
+}

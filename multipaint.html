@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <script type="text/javascript" src="lib/paper/paper-full.js"></script>
+    <script type="text/paperscript" src="/multipaint.js" canvas="myCanvas"></script>
+    <script src="/multipaint.js"></script>
+</head>
+
+<body>
+    <div>
+    <canvas id="myCanvas" height="400px" width="600px"></canvas>
+    </div>
+       
+    <div>
+        <label for="message">Message:</label>
+
+        <input type="text" id="message-1" message="message" size="15"></input>
+        <input type="button" id="send-message" value="Send Message" onclick="sendMessage()"></input>
+        <div id="message-list"></div>
+        
+    </div>
+
+</body>
